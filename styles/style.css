@@ -1,0 +1,571 @@
+/* style of all */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* body styles */
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ------------------------------------
+---------------HEAD STYLES--------------
+----------------------------------------- */
+
+.head {
+    width: 100%;
+    height: 80vh;
+    background-image: url(../images/donation9.jpg),
+        linear-gradient(180deg, rgba(0, 0, 0, 0.589), rgba(0, 0, 0, 0.548));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.head-container {
+    text-align: center;
+}
+
+.head-title {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.head-des {
+    color: white;
+    font-size: 12px;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+.head-btn {
+    color: white;
+    background-color: rgb(110, 81, 25);
+    padding: 10px 18px;
+    font-size: 16px;
+    font-weight: 300;
+    border: 0;
+    border-radius: 5px;
+}
+
+/*---------------------------------
+------------------- donate today section style
+------------------------------------- */
+.donate-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 50%;
+    margin: 50px auto;
+}
+
+.donate-description {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.donate-shorts {
+    font-size: 10px;
+}
+
+.donate-amount {
+    display: flex;
+    gap: 10px;
+}
+
+.donate-amount button {
+    border: 0;
+    padding: 15px 5px;
+    color: red;
+    height: 80px;
+    width: 80px;
+}
+
+.donate-amount button:hover {
+    border: 1px solid red;
+    cursor: pointer;
+}
+
+.other-amount {
+    display: flex;
+    flex-direction: column;
+}
+
+.other-amount .other-inp {
+    border: 0;
+    border-bottom: 1px solid rgba(255, 0, 0, 0.425);
+    text-align: center;
+    padding: 5px;
+    border-bottom-width: 100%;
+}
+
+.other-amount .other-inp:focus {
+    outline: none;
+}
+
+.other-amount .other-sub {
+    color: white;
+    background-color: rgb(110, 81, 25);
+    padding: 10px 18px;
+    font-size: 16px;
+    font-weight: 300;
+    border: 0;
+    border-radius: 5px;
+}
+
+/* ----------------------------------
+--------------------------------our donate plan styles
+----------------------------------------------------- */
+.donate-plan-container {
+    width: 100%;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.donate-description{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.donate-plan-container .donate-short {
+    font-size: 10px;
+}
+
+.donate-plan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.food {
+    width: 26%;
+    height: 300px;
+    background-color: rgba(128, 128, 128, 0.623);
+    padding: 40px 20px;
+    text-align: start;
+}
+
+.food>p {
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+.food>img {
+    width: 50px;
+    height: 50px;
+}
+
+.shelter {
+    width: 26%;
+    height: 300px;
+    background-color: aquamarine;
+    padding: 40px 20px;
+    text-align: start;
+}
+
+.shelter>p {
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+.shelter>img {
+    width: 50px;
+    height: 50px;
+}
+
+.education {
+    width: 26%;
+    height: 300px;
+    background-color: bisque;
+    padding: 40px 20px;
+    text-align: start;
+}
+
+.education>p {
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+.education>img {
+    width: 50px;
+    height: 50px;
+}
+
+/* ---------------------------------------------
+---------------their lives on your depend-------
+-----------------------------------------------  */
+.depend {
+    /* width: 100%; */
+    display: flex;
+    /* margin: 0 auto; */
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+
+}
+
+.depend-details {
+    width: 50%;
+}
+
+.depend-details h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.depend-details p {
+    font-size: 12px;
+    color: gray;
+    margin: 10px;
+}
+
+.depend-details button {
+    padding: 8px 25px;
+    color: white;
+    background-color: rgb(233, 60, 60);
+    border: 0;
+    border-radius: 5px;
+}
+
+.depend-img img {
+    width: 300px;
+    height: 300px;
+}
+
+/*----------------------------------
+----------------------------------- they need us to suviv
+-------------------------------------------------------------------------------------------- */
+.need{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.need-img > img{
+    width: 300px;
+    height: 300px;
+}
+.need-details{
+    width: 50%;
+}
+.need-details h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.need-details p {
+    font-size: 12px;
+    color: gray;
+    margin: 10px;
+}
+
+.need-details button {
+    padding: 8px 25px;
+    color: white;
+    background-color: rgb(233, 60, 60);
+    border: 0;
+    border-radius: 5px;
+}
+
+
+/* ---------------------------------------------------------------
+-------------------------------------get my updates section style 
+------------------------------------------------------------------------------*/
+.get-updates{
+    margin-top: 150px;
+}
+.updates-details{
+
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 0 auto;
+    margin-bottom: 40px;
+    text-align: center;
+    gap: 10px;
+}
+.updates-details h1{
+    font-size: 25px;
+    font-weight: 700;
+}
+.updates-details p{
+    font-size: 12px;
+    font-weight: 100;
+    color: gray;
+}
+.up-input{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: bisque;
+    height: 150px;
+}
+.up-input .email{
+    border: 0;
+    color: gray;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: aquamarine;
+}
+.up-input .sus{
+    border: 0;
+    color: white;
+    background-color: red;
+    padding: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+/* -----------------------------------------
+---------------------------------------footer style at last
+------------------------------------------------------- */
+.foot{
+    background-color: black;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 150px;
+}
+.foot .word{
+    color: yellowgreen;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.foot h1{
+    color: red;
+}
+.foot p{
+    color: gray;
+}
+
+
+
+/*----------------------------------------------------
+---------------------------MEDIA QUERIES--------------
+------------------------------------------------------- */
+@media only screen and (max-width: 576px) {
+    .head {
+        width: 100%;
+        height: 40vh;
+    }
+
+    .head-title {
+        font-size: 20px;
+    }
+
+    .head-des {
+        font-size: 6px;
+    }
+    .donate-container{
+        width: 100%;
+    }
+
+    .donate-shorts {
+        font-size: 7px;
+    }
+
+    .donate-amount button {
+        width: 37px;
+        height: 37px;
+        text-align: center;
+        font-size: 8px;
+    }
+
+    .donate-plan-container {
+        width: 100%;
+    }
+    .donate-description{
+        width: 70%;
+    }
+    .donate-short{
+        font-size: 5px;
+    }
+
+    .donate-plan {
+        flex-direction: column;
+    }
+
+    .food,
+    .shelter,
+    .education {
+        width: 100%;
+        height: 300px;
+        /* margin: 0 auto; */
+        text-align: center;
+    }
+
+    .food>h3 {
+        font-size: 18px;
+    }
+
+    .food>p {
+        font-size: 14px;
+    }
+
+    .shelter>h3 {
+        font-size: 18px;
+    }
+
+    .shelter>p {
+        font-size: 14px;
+    }
+
+    .education>h3 {
+        font-size: 18px;
+    }
+
+    .education>p {
+        font-size: 14px;
+    }
+    .depend{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .depend-details{
+        text-align: center;
+        width: 100%;
+    }
+    .depend-details h1{
+        font-size: 18px;
+    }
+    .depend-details p{
+        font-size: 10px;
+    }
+    .need{
+        flex-direction: column;
+        align-items: center;
+    }
+    .need-details{
+        text-align: center;
+        width: 100%;
+    }
+    .need-details h1{
+        font-size: 18px;
+    }
+    .need-details p{
+        font-size: 10px;
+    }
+    .get-updates{
+        margin-top: 70px;
+    }
+    .updates-details{
+        width: 100%;
+    }
+    .up-input{
+        width: 100%;
+    }
+    .foot .word{
+
+        font-size: 30px;
+
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+    .head {
+        width: 100%;
+        height: 50vh;
+    }
+    .donate-container{
+        width: 100%;
+    }
+
+    .donate-title {
+        font-size: 30px;
+    }
+
+    .donate-shorts {
+        font-size: 12px;
+    }
+
+    .donate-amount button {
+        width: 70px;
+        height: 70px;
+    }
+
+    .donate-plan {
+        flex-direction: column;
+    }
+
+    .food,
+    .shelter,
+    .education {
+        width: 100%;
+        height: 300px;
+        text-align: center;
+    }
+
+    .food>h3 {
+        font-size: 30px;
+    }
+
+    .food>p {
+        font-size: 18px;
+    }
+
+    .shelter>h3 {
+        font-size: 30px;
+    }
+
+    .shelter>p {
+        font-size: 18px;
+    }
+
+    .education>h3 {
+        font-size: 30px;
+    }
+
+    .education>p {
+        font-size: 18px;
+    }
+    .depend{
+        flex-direction: column-reverse;
+    }
+    .depend-details{
+        width: 100%;
+        text-align: center;
+    }
+    .depend-img{
+        text-align: center;
+    }
+    .depend-img > img{
+        width: 90%;
+    }
+    .need{
+        flex-direction: column;
+    }
+    .need-details{
+        width: 100%;
+        text-align: center;
+    }
+    .need-img{
+        text-align: center;
+    }
+    .need-img > img{
+        width: 90%;
+    }
+}
